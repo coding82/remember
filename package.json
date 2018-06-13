@@ -5,9 +5,9 @@
   "main": "index.js",
   "scripts": {
     "start": "nodemon server/index.js",
-    "seed": "node api/script/seed.js",
+    "seed": "node server/seed.js",
     "deploy": "api/script/deploy",
-    "start-dev": "nodemon server/api/index.js",
+    "start-dev": "nodemon server/index.js",
     "test": "mocha --watch test/**.js"
   },
   "dependencies": {
