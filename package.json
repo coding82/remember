@@ -1,0 +1,28 @@
+{
+  "name": "remember_server",
+  "version": "1.0.0",
+  "private": true,
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon server/index.js",
+    "seed": "node api/script/seed.js",
+    "deploy": "api/script/deploy",
+    "start-dev": "nodemon server/api/index.js",
+    "test": "mocha --watch test/**.js"
+  },
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "compression": "^1.7.1",
+    "crypto": "^1.0.1",
+    "express": "^4.16.2",
+    "express-session": "^1.15.6",
+    "morgan": "^1.9.0",
+    "nodemon": "^1.14.11",
+    "pg": "^7.4.1",
+    "sequelize": "^4.32.1"
+  },
+  "description": "",
+  "devDependencies": {},
+  "author": "",
+  "license": "ISC"
+}
